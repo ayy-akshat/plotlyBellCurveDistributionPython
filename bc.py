@@ -5,5 +5,5 @@ import pandas as pd
 
 df = pd.read_csv("data.csv")
 
-graph = ff.create_distplot([df["Avg Rating"].tolist()], ["Company Rating Distribution"], show_hist=False)
+graph = ff.create_distplot([df["Avg Rating"].tolist()], ["Company Rating Distribution"])
 graph.show()
